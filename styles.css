@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(20, 50%, 98%);
+    font-size: 16px;
+}
+
+h1{
+    margin: 80px 40px 40px;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    max-width: 700px;
+    margin-left: 20px;
+    /* row-gap: 10px; */
+}
+
+.waffle{
+    position: relative;
+    display: block;
+    margin: 40px 20px 20px 20px;
+}
+
+.waffle-img{
+    height: 200px;
+    max-width: 200px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    
+}
+
+.waffle button{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(13, 31%, 94%) hsl(14, 25%, 72%);
+    transform: translate(25%);
+    margin-top: -70px;
+}
+
+.cart-img{
+    max-width: 20px;
+}
+
+h2{
+    color: hsl(14, 25%, 72%);
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.itemname{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: hsl(14, 65%, 9%);
+}
+
+span{
+    color: hsl(14, 86%, 42%);
+    font-weight: 700;
+}
+.menu2{
+    position: relative;
+    margin: 40px 10px;
+}
+
+
+.menu2 button{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(13, 31%, 94%) hsl(14, 25%, 72%);
+    transform: translate(25%);
+    margin-top: -70px;
+}
+
+.menu3{
+    position: relative;
+    margin: 40px 10px;
+}
+
+.menu3 button{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(13, 31%, 94%) hsl(14, 25%, 72%);
+    transform: translate(25%);
+    margin-top: -70px;
+
+}
+
+.desset2{
+    display: flex;
+
+}
+
+.desset2 img{
+    max-width: 200px;
+    height: 200px;
+    margin: 0px 0px 40px ;
+    border-radius: 25px;
+}
+
+.nextmenu{
+    position: relative;
+    margin: 10px 5px 40px 40px;
+}
+
+.nextmenu button{
+    display: flex;
+    position: absolute;
+    max-width: 150px;
+    height: 40px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(13, 31%, 94%);
+    transform: translate(15%);
+    bottom: 30%;
+    margin-bottom: 10 !important;
+}
+
+.tiramisu-img{
+    max-width: 25px !important;
+    height: 25px !important;
+    margin-top: 40px !important;
+}
+
+
+.nextmenu2{
+    position: relative;        
+    margin: 10px 20px 40px 20px;
+}
+
+.nextmenu2 button{
+    display: flex;
+    position: absolute;
+    max-width: 150px;
+    height: 40px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(13, 31%, 94%);
+    transform: translate(15%);
+    
+    bottom: 30%;
+/* margin-bottom: 10 !important; */
+}
+
+.nextmenu3{
+    position: relative;        
+    margin: 10px 5px 40px;
+}
+
+.nextmenu3 button{
+    display: flex;
+    position: absolute;
+    max-width: 150px;
+    height: 40px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: hsl(13, 31%, 94%);
+    transform: translate(15%);
+    bottom: 30%;
+}
+
+.yourCart{
+    position: absolute;
+    overflow: hidden;
+    width: 350px;
+    height: 550px;
+    background-color:hsl(13, 31%, 94%);
+    top: 0;
+    border-radius: 25px;
+    transform: translateX(230%);
+    margin-top: 5%;
+    padding: 40px 20px;
+}
+
+.yourCart:first-child{
+    margin: 0 10px 5px;
+
+}
+
+#displayCart{
+    display: block;
+}
+
+#displayCart img{
+    margin-left:calc(50% - 75px)   
+}
+
+#confirm-order{
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    transform: translate(50%);
+}
+
+
+#confirm-order :hover{
+    background-color: hsl(159, 69%, 38%);
+    cursor: pointer;
+}
+
